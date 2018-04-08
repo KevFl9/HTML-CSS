@@ -1,2 +1,4 @@
-Hey,this project was created when i was looking for a way to change the
-theme of a website dynamiacally 
+Hey, this project was created when I was looking for a way to change the
+Theme of a website dynamically
+I am using bootstrap 4 only for alignment and a little styling.
+
