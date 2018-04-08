@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Theme Changer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link id="styleSheet" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container marg_top50p">
+		<div class="row">
+			<div class="offset-lg-3  col-lg-6 offset-md-2  col-md-8 col-sm-12">
+				<div class="form_header">
+					<div>Theme Changer</div>
+					<div class="marg_top10p">
+						<div style="font-size:14px">Toggle between them to see different styles being applied</div>
+						<span class="padding_LR10p">
+							<label for="blue" style="vertical-align: middle">Blue</label>
+							<input id="blue" type="radio" name="ThemeControl" value="Blue" onChange="test(event)" checked  >
+						</span>
+						<span class="padding_LR10p">
+							<label for="orange" style="vertical-align: middle">Orange</label>
+							<input id="orange" type="radio" name="ThemeControl" value="Orange" onChange="test(event)"  >
+						</span>
+					</div>
+				</div>
+				
+				<form class="form_container marg_top10p" style="padding:1em">
+				 	<div class="form-group ">
+				    	<label for="Email1 ">Email address</label>
+				    	<input type="email" id="Email1" class="form-control customInput" placeholder="Enter email">
+				  	</div>
+				  	<div class="form-group">
+				    	<label for="Password1 ">Password</label>
+				    	<input type="password" class="form-control customInput" id="Password1" placeholder="Password">
+				  	</div>
+				  	<button type="submit" onclick="StopDefault(event)" class="btn_transparent marg_top20p">Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="demo.js"></script>
+		
+	</body>
+</html>

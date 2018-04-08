@@ -1,0 +1,42 @@
+@import 'modules/typography';
+@import 'components/buttons';
+@import 'components/marg&pad';
+
+$PrimaryColor:pink !default;
+$SecondaryColor:blue !default;
+$TernaryColor:green !default;
+
+body{
+	color:darken($PrimaryColor,40%);
+}
+
+.form_container{
+    border: 1px solid $PrimaryColor;
+    box-shadow: 1px 1px 1px 1px $PrimaryColor;
+    border-radius: 6px;
+    font-size:initial;
+    transition:all 1s;
+}
+.form_header{
+	text-align:center;
+	border:1px solid darken( $PrimaryColor, 30% );
+	box-shadow: 1px 1px 1px 1px $PrimaryColor;
+	padding:10px;
+	border-radius:5px
+}
+
+.form-group .customInput{
+ 	border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+    color:darken($PrimaryColor,30%);
+    transition:border-bottom 1s;
+    &::placeholder { 
+	    color: lightgrey;
+	    opacity: 1; 
+	}
+	&:focus{
+		border-bottom:1px solid darken($PrimaryColor,40%);
+		box-shadow:none;
+	}
+}

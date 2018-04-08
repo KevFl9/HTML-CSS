@@ -1,0 +1,83 @@
+/* line 2, ../sass/modules/_typography.scss */
+.baseFontSize {
+  font-size: 24px;
+}
+
+/* line 1, ../sass/components/_buttons.scss */
+.btn_transparent {
+  border: 2px solid lightsalmon;
+  border-radius: 5px;
+  background: inherit;
+  padding: 0.4em 1.2em;
+  box-shadow: 1px 1px 0px 0px lightsalmon;
+  transition: all 1s;
+  width: 6em;
+}
+
+/* line 2, ../sass/components/_marg&pad.scss */
+.marg_top10p {
+  margin-top: 10px;
+}
+
+/* line 5, ../sass/components/_marg&pad.scss */
+.marg_top20p {
+  margin-top: 20px;
+}
+
+/* line 8, ../sass/components/_marg&pad.scss */
+.marg_top50p {
+  margin-top: 50px;
+}
+
+/* line 13, ../sass/components/_marg&pad.scss */
+.padding_LR10p {
+  padding: 10px;
+}
+
+/* line 9, ../sass/_BaseStructure.scss */
+body {
+  color: #ad3100;
+}
+
+/* line 13, ../sass/_BaseStructure.scss */
+.form_container {
+  border: 1px solid lightsalmon;
+  box-shadow: 1px 1px 1px 1px lightsalmon;
+  border-radius: 6px;
+  font-size: initial;
+  transition: all 1s;
+}
+
+/* line 20, ../sass/_BaseStructure.scss */
+.form_header {
+  text-align: center;
+  border: 1px solid #e04000;
+  box-shadow: 1px 1px 1px 1px lightsalmon;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 28, ../sass/_BaseStructure.scss */
+.form-group .customInput {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0px;
+  color: #e04000;
+  transition: border-bottom 1s;
+}
+/* line 34, ../sass/_BaseStructure.scss */
+.form-group .customInput::placeholder {
+  color: lightgrey;
+  opacity: 1;
+}
+/* line 38, ../sass/_BaseStructure.scss */
+.form-group .customInput:focus {
+  border-bottom: 1px solid #ad3100;
+  box-shadow: none;
+}
+
+/* line 7, ../sass/Light_theme.scss */
+.btn_transparent {
+  width: 100%;
+  border-radius: 20px;
+}

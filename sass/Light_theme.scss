@@ -1,0 +1,11 @@
+
+$PrimaryColor:lightsalmon;
+$SecondaryColor:green;
+$TernaryColor:yellow;
+@import 'BaseStructure';
+
+.btn_transparent{
+	@extend .btn_transparent;
+	width:100%;
+	border-radius:20px;
+}
